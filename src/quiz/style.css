@@ -1,0 +1,64 @@
+.main_wrapper {
+  width: 30%;
+  height: 200px;
+  border: 1px solid rgba(0, 0, 0, 0.808);
+  background: #f7f7f9;
+  margin-left: 30%;
+  margin-top: 15%;
+  border-radius: 3px;
+  box-shadow: 10px 5px 5px rgb(199, 188, 188);
+}
+button {
+  float: right;
+  margin-right: 10px;
+  width: 15%;
+  height: 45px;
+  font-size: 14px;
+  font-family: "open-sans", "sans-serif";
+  margin-bottom: 0;
+  border-radius: 4px;
+  border: 1px solid;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;
+  line-height: 1.43;
+  color: #fff;
+  white-space: nowrap;
+  padding: 6px 12px;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  text-decoration: none;
+  outline: none;
+  border-color: #ff5a5f !important;
+  background-color: #ff5a5f !important;
+  cursor: pointer;
+}
+.questions_containers {
+  margin-top: 10px;
+  padding: 3px;
+  margin-left: 20px;
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 2s;
+}
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.questions_containers ul {
+  text-decoration: none;
+}
+.question_wrapper {
+  border: 1px solid #e1e1e8;
+  color: #ff5a5f;
+  background: #f7f7f9;
+  padding: 2px;
+  font-weight: bold;
+  border-radius: 2px;
+}
